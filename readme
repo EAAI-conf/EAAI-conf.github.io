@@ -1,0 +1,12 @@
+Written by Stephanie Rosenthal 2023
+
+To edit the website for the following year, do the following:
+1) copy the /year/eaai-[lastyear].html file to /year/eaai-[thisyear].html
+2) replace most of the main text of /year/eaai-[lastyear].html with new sections for:
+  a) /eaai/cfp.html
+  b) /eaai/org.html
+  c) /eaai/schedule.html
+  Don't forget to update the left menu with links. Don't copy over the top menu bars.
+3) update the curr_eaai.html to reference this year's conference and point to /year/eaai-[thisyear].html
+4) add a link to last year's conference in the Prior Symposia section of /index.html
+5) update the content of this year's page /year/eaai-[thisyear].html, and the cfp and org (and eventually schedule) with changes. The menubars do not need to be updated, leave them all as is. 
