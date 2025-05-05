@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="../img/apple-icon-57x57.png">
+            <link rel="apple-touch-icon" sizes="60x60" href="../img/apple-icon-60x60.png">
+            <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-icon-72x72.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="../img/apple-icon-76x76.png">
+            <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-icon-114x114.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="../img/apple-icon-120x120.png">
+            <link rel="apple-touch-icon" sizes="144x144" href="../img/apple-icon-144x144.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="../img/apple-icon-152x152.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-icon-180x180.png">
+            <link rel="icon" type="image/png" sizes="192x192"  href="../img/android-icon-192x192.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+            <link rel="manifest" href="../img/manifest.json">
+            <meta name="msapplication-TileColor" content="#ffffff">
+            <meta name="msapplication-TileImage" content="../img/ms-icon-144x144.png">
+            <meta name="theme-color" content="#ffffff">
+
+	<title></title>
+
+        <link href="../css/eaai-lavish-bootstrap.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+	<script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script src="../js/base.js"></script>
+     
+	    
+    </head>
+
+    <body>
+	    
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="/index.html">EAAI</a>
+        </div>
+
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            	<!-- remove (MN)
+                <li class="active">
+                    <a href="/index.html">Home</a>
+                </li>
+		-->
+
+		<li >
+                    <a href="/curr_eaai.html">Latest EAAI</a>
+                </li>
+
+		<!-- remove (MN)
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Latest EAAI <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+			<li >
+                            <a href="/curr_eaai.html">This Year's EAAI Home Page</a>
+			</li>
+			    
+                        <li >
+                            <a href="/eaai/cfp.html">Call for Participation</a>
+			</li>
+                    
+                        <li >
+                            <a href="/eaai/schedule.html">Program Schedule</a>
+                        </li>
+                    
+                        <li >
+                            <a href="/eaai/org.html">Organizers</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+		-->
+            
+                <li >
+                    <a href="https://aaai.org/conference/aaai/" target="_blank">AAAI</a>
+                </li>
+            
+                <li >
+                    <a href="http://modelai.gettysburg.edu/" target="_blank">Model AI Assignments</a>
+                </li>
+            
+		<li>
+		    <a href="/index.html#past-proceedings">Prior Symposia</a>
+		</li>
+        </div>
+    </div>
+</div>
+      
+	<div class="container">
+
+        </div>
+
+
+        <div class="container">
+            <div class="col-md-3">
+                <div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#eaai-26">EAAI-26</a></li>
+        
+            <li><a href="#whats-new">What's New (rev. May 5, 2025)</a></li>
+        
+            <li><a href="#important-dates">Important Dates</a></li>
+
+	    -- <li><a href="#program">EAAI-25 Program Schedule</a></li>
+        
+            <li><a href="#about-eaai">About EAAI-26</a></li>
+        
+            <li><a href="#call-for-participation">Call for Participation</a></li>
+	    
+	    <!--<li><a href="#aaaieaai-outstanding-educator-award">AAAI/EAAI Outstanding Educator Award</a></li>-->
+
+	    <li><a href="#nfaied">AAAI/ACM SIGAI Innovative AI Education Program</a></li>
+        
+	    <li><a href="#organizers">Organizers</a></li>
+        
+    
+    </ul>
+</div>
+            </div>
+            <div class="col-md-9" role="main">
+                
+
+<p><img src="../img/aaai-logo.jpg" style="float:left">  <p style="font-size:24px">EAAI-26: The 16th Symposium on Educational Advances in Artificial Intelligence</p>
+<br><br></p>
+<p style="font-size:18px" align="center">Singapore, Singapore &nbsp;&nbsp;Collocated with <a href="https://aaai.org/aaai-conference/">AAAI-26</a><br>
+January 24-26, 2026
+</p>
+<p><br></p>
+<p align="center"><i>Sponsored by the <a href="http://www.aaai.org/">Association for the Advancement of Artificial Intelligence</a><br></i>
+</p>
+
+<h1 id="eaai-26">EAAI-26</h1>
+<h2 id="whats-new">What's New <small>(rev. May 5, 2025)</small></h2>
+<ul>
+	-- <li>Program now available! (Jan 17, 2025)</li>
+	-- <li>Innovative AI Education Award applications open (Dec 18, 2024)</li>
+	-- <li>EasyChair submission is now open on the CFP page (May 5, 2025)</li>
+	<li>CFP is available (May 5, 2025)</li>
+	<li>Website is up (May 5, 2025)</li>
+</ul>
+<hr />
+		
+<h2 id="important-dates">Important Dates</h2>
+<p>Submission Dates</p>
+<ul>
+<li>Abstract deadline: August 11, 2025, at 11:59 PM UTC-12 (anywhere on earth)
+<li>Paper deadline: August 18, 2025, at 11:59 PM UTC-12 (anywhere on earth)
+<li>Notification date:  November 3, 2025
+<li> Camera-ready deadline: November 13, 2025
+<li>Symposium dates:  January 24-26, 2026 (co-located with AAAI-26)
+</ul>
+
+-- <h2 id="program">EAAI-25 Program Schedule</h2>
+-- <h3 id="saturday-march-1-2025">Saturday, March 1, 2025</h3>
+-- <p><em>All times are Eastern US Time zone</em></p>
+-- <p><strong>8:30 - 8:40: Welcome</strong><br>
+-- <em>Narges Norouzi and Stephanie Rosenthal</em></p>
+
+
+-- <p><strong>8:40 - 9:55: Analyses of K12 AI Curricula</strong><br>
+-- Chair: Kate Moore </p>
+-- <ul>
+-- <li>Understanding K-12 Teachers’ Needs for AI Education: A Survey-Based Study (<a href="https://underline.io/events/473/sessions/19448/lecture/114254-eaai-33-understanding-k-12-teachers-needs-for-ai-education-a-survey-based-study?tab=Abstract" target="_blank">Link</a>)<br>
+-- <em>Nazan Bautista, John Femiani and Daniela Inclezan</em></li>
+-- <li>Advancing Research on Equitable AI Education through a Focus on Implementation: Insights from a Middle School Computer Vision Module Beta-Test (<a href="https://app.underline.io/downloadable_materials/lectures/114268/paper" target="_blank">PDF</a>)<br>
+-- <em>Christina Bosch, Mary Cate Gustafson-Quiett, Samar Abu Hegly, Sarah Wharton, John Masla, Lydia Guterman, Calvin Macatantan, Eric Klopfer, Hal Abelson and Cynthia Breazeal</em></li>
+-- <li>Supporting AI Fluency Teaching Through the Development of Assessments for Classroom Use (<a href="https://app.underline.io/downloadable_materials/lectures/114241/paper" target="_blank">PDF</a>)<br>
+-- <em>John Masla, Christina Bosch, Prerna Ravi, Lydia Guterman, Sarah Wharton, Mary Cate Gustafson-Quiett, Samar Abu Hegly, Calvin Macatantan, Eric Klopfer, Cynthia Breazeal and Hal Abelson</em></li>
+-- <li>What Can Youth Learn About Artificial Intelligence and Machine Learning in One Hour? Examining how Hour of Code Activities Address the Five Big Ideas of AI (<a href="https://app.underline.io/downloadable_materials/lectures/114253/paper" target="_blank">PDF</a>)<br>
+-- <em>Luis Morales-Navarro, Yasmin Kafai, Eric Yang and Asep Suryana</em></li>
+-- <li>“From Unseen Needs to Classroom Solutions”: Exploring AI Literacy Challenges & Opportunities with Project-based Learning Toolkit in K-12 Education (<a href="https://app.underline.io/downloadable_materials/lectures/114263/paper" target="_blank">PDF</a>)<br>
+-- <em>Hanqi Li, Ruiwei Xiao, Hsuan Nieu, Ying-Jui Tseng and Guanze Liao</em></li>
+-- <li>Artificial Intelligence for Future Presidents: Teaching AI Literacy to Everyone (<a href="https://app.underline.io/downloadable_materials/lectures/114246/paper" target="_blank">PDF</a>)<br>
+-- <em>Kate Candon, Nicholas Georgiou, Rebecca Ramnauth, Jessie Cheung, E. Chandra Fincke and Brian Scassellati</em></li>
+-- </ul>
+
+
+-- <p><strong>9:55 - 10:45: K12 AI Education Resources</strong><br>
+-- Chair: Fred Martin </p>
+-- <ul>
+-- <li>Designing Characters with AI: An Art & AI Learning Activity (<a href="https://app.underline.io/downloadable_materials/lectures/114245/paper" target="_blank">PDF</a>)<br>
+-- <em>Safinah Ali, Sara Jakubowicz, Ayat Abodayeh, Amaan Zubairi, Dalal Aldossary and Cynthia Breazeal</em></li>
+-- <li>Word2Vec4Kids: Interactive Challenges to Introduce Middle School Students to Word Embeddings (<a href="https://app.underline.io/downloadable_materials/lectures/114269/paper" target="_blank">PDF</a>)<br>
+-- <em>Nathan Wiatrek, Yash Verma and Fred Martin</em></li>
+-- <li>Learning To Think Like A Neuron In Middle School (<a href="https://app.underline.io/downloadable_materials/lectures/114240/paper" target="_blank">PDF</a>)<br>
+-- <em>David Touretzky, Christina Gardner-McCune, Will Hanna, Angela Chen and Neel Pawar</em></li>
+-- <li>AI Chef Trainer: Introducing Students to the Importance of Data in Machine Learning (<a href="https://app.underline.io/downloadable_materials/lectures/114255/paper" target="_blank">PDF</a>)<br>
+-- <em>Saniya Vahedian Movahed and Fred Martin</em></li>
+-- </ul>
+
+-- <p><strong>10:45 - 11:15: Coffee Break</strong></p>
+
+
+-- <p><strong>11:15 - 11:55: AI Tools for Modeling Students</strong><br>
+-- Chair: Fatima Zahra</p>
+-- <ul>
+-- <li>Can LLMs Reliably Simulate Human Learner Actions? A Simulation Authoring Framework for Open-Ended Learning Environments (<a href="https://app.underline.io/downloadable_materials/lectures/114266/paper" target="_blank">PDF</a>)<br>
+-- <em>Amogh Mannekote, Adam Davies, Jina Kang and Kristy Elizabeth Boyer</em></li>
+-- <li>Exploring Iterative Enhancement for Improving Learnersourced Multiple-Choice Question Explanations with Large Language Models (<a href="https://app.underline.io/downloadable_materials/lectures/114260/paper" target="_blank">PDF</a>)<br>
+-- <em>Qiming Bao, Juho Leinonen, Alex Yuxuan Peng, Wanjun Zhong, Gaël Gendron, Timothy Pistotti, Alice Huang, Paul Denny, Michael Witbrock and Jiamou Liu</em></li>
+-- <li>Automated Assessment of Student Self-explanation in Code Comprehension Using Pre-Trained Language Models (<a href="https://app.underline.io/downloadable_materials/lectures/114265/paper" target="_blank">PDF</a>)<br>
+-- <em>Jeevan Chapagain and Vasile Rus</em></li>
+-- </ul>
+
+-- <p><strong>12:00 - 12:30: Blue Sky Ideas</strong><br>
+-- Chair: Narges Norouzi</p>
+-- <ul>
+-- <li>Fatima Zahra, <em>University of Tennessee Knoxville</em></li>
+-- <li>Pulkit Verma, <em>MIT</em></li>
+-- <li>Zhonghao Shi, <em>University of Southern California</em></li>
+-- <li>Somosmita Mitra, <em>Purdue University</em></li>
+-- <li>Maura White, <em>University of California San Diego</em></li>
+-- </ul>
+
+
+-- <p><strong>12:30 - 2:00: Lunch Break </strong></p>
+
+
+-- <p><strong>2:00 - 3:15: AAAI/EAAI Patrick Henry Winston Outstanding Educator Award</strong><br>
+-- <em>Subbarao Kambhampati</em><br>
+
+-- <p><strong>3:20 - 3:45: Model AI Assignments I</strong><br>
+-- Chair: Todd Neller. MAIA Repository (<a href="http://modelai.gettysburg.edu/" target="_blank">http://modelai.gettysburg.edu/</a>)</p>
+-- <ul>
+--   <li>Model Building and Risk Analysis with Health Survey Data<br>
+--   <em>Sonya Allin, Lisa Zhang, Mustafa Haiderbhai, Carolyn Quinlan, Rutwa Engineer and Michael Pawliuk</em></li>
+--   <li>Enhancing Data Science Education through Environmental Impact Prediction and Data Storytelling<br/>
+--   <em>Maryam Mirzaei and Mohammad Mahdi Ajallooeian</em></li>
+-- </ul>
+  
+-- <p><strong>3:45 - 4:15: Break</strong></p>
+
+-- <p><strong>4:15 - 4:55: University AI Courses and Curricula</strong><br>
+-- Chair: Pulkit Verma</p>
+-- <ul>
+-- <li>Comparing Artificial Intelligence Curricula in Canadian and US Universities (<a href="https://app.underline.io/downloadable_materials/lectures/114242/paper" target="_blank">PDF</a>)<br>
+-- <em>Rose Niousha, Lexie Jingruo Guo, Rick Kaifeng Li, Narges Norouzi and Lisa Zhang</em></li>
+-- <li>Making Transparency Advocates: An Educational Approach Towards Better Algorithmic Transparency in Practice (<a href="https://app.underline.io/downloadable_materials/lectures/114248/paper" target="_blank">PDF</a>)<br>
+-- <em>Andrew Bell and Julia Stoyanovich</em></li>
+-- <li>Towards an AI Course Based on Neural Networks (<a href="https://app.underline.io/downloadable_materials/lectures/114256/paper" target="_blank">PDF</a>)<br>
+-- <em>Michael Wollowski</em></li>
+-- </ul>
+
+-- <p><strong>5:00 - 5:45: AI Ethics and Applications</strong><br>
+-- Chair: Christina Gardner-McCune </p>
+-- <ul>
+-- <li>Fostering Epistemic Insight in AI Ethics Education through a Constructionist Pedagogical Approach (<a href="https://underline.io/events/473/sessions/19454/lecture/115418-eaai-ul03-fostering-epistemic-insight-in-ai-ethics-education-through-a-constructionist-pedagogical-approach" target="_blank">Link</a>)<br>
+-- <em>Ziyan Lin and Yun Dai</em></li>
+-- <li>AI Toolkit: Libraries and Essays for Exploring the Technology and Ethics Behind AI (<a href="https://app.underline.io/downloadable_materials/lectures/114271/paper" target="_blank">PDF</a>)<br>
+-- <em>Levin Ho, Morgan McErlean, Zehua You, Douglas Blank and Lisa Meeden</em></li>
+-- <li>Learning about algorithm auditing in five steps: scaffolding how high school youth can systematically and critically evaluate machine learning applications (<a href="https://app.underline.io/downloadable_materials/lectures/114252/paper" target="_blank">PDF</a>)<br>
+-- <em>Luis Morales-Navarro, Yasmin Kafai, Lauren Vogelstein, Evelyn Yu and Danaë Metaxa</em></li>
+-- <li>An XAI Social Media Platform for Teaching K-12 Students AI-Driven Profiling, Clustering, and Engagement-Based Recommending (<a href="https://app.underline.io/downloadable_materials/lectures/114258/paper" target="_blank">PDF</a>)<br>
+-- <em>Nicolas Pope, Juho Kahila, Henriikka Vartiainen, Mohammed Saqr, Sonsoles López-Pernas, Teemu Roos, Jari Laru and Matti Tedre</em></li>
+-- </ul>
+
+-- <p><strong>5:50 - 6:40: Model AI Assignments II</strong><br>
+-- Chair: Todd Neller. MAIA Repository (<a href="http://modelai.gettysburg.edu/" target="_blank">http://modelai.gettysburg.edu/</a>)</p>
+-- <ul>
+--   <li>Differential Privacy with MedMNIST)<br>
+--   <em>Lisa Zhang, Sonya Allin, Mahdi Haghifam, Michael Pawliuk, Rutwa Engineer and Florian Shkurti</em></li>
+--   <li>Shapeshifting Coloring Problems<br>
+--   <em>Ashwin R. Bharadwaj, Anio Zhang and Rajagopal Venkatesaramani</em></li>
+--   <li>Mastermind Has Entropy<br>
+--   <em>Loreto Alonzi, Brian Wright and Ali Rivera</em></li>
+--   <li>Lecture material and worksheets for AI Applications and Societal Impact - CS Core 2023<br>
+--   <em>Giulia Toti, Shira Wein, Mercy Wairimu Gachoka and Li-Hsin Chang	</em></li>
+-- </ul>
+
+
+-- <h3 id="sunday-march-2-2025">Sunday, March 2, 2025</h3>
+-- <p><strong>8:30 - 8:40: Announcements</strong><br>
+-- <em>Narges Norouzi and Stephanie Rosenthal</em></p>
+
+
+-- <p><strong>8:40 - 9:40: AI Upskilling </strong><br>
+-- Chair: Effat Farhana</p>
+-- <ul>
+-- <li>Developing a Postgraduate Program for AI in Medicine with Kern’s Six-Step Curriculum Development Approach in Singapore (<a href="https://app.underline.io/downloadable_materials/lectures/114264/paper" target="_blank">PDF</a>)<br>
+-- <em>Chang Cai, Michelle Jong, Yih Yng Ng, Jo-Anne Elizabeth Manski-Nankervis, Kum Ying Tham, Preman Rajalingam, Boon Keong Ang, Jennifer Anne Cleland, Joseph Sung and Xiuyi Fan</em></li>
+-- <li>Using Case Studies to Teach Responsible AI to Industry Practitioners (<a href="https://app.underline.io/downloadable_materials/lectures/114250/paper" target="_blank">PDF</a>)<br>
+-- <em>Julia Stoyanovich, Rodrigo Kreis de Paula, Armanda Lewis and Chloe Zheng</em></li>
+-- <li>Bridging the AI Gap: Evaluating the Impact of an AI Education Program for Caregivers on Parental Leave (<a href="https://app.underline.io/downloadable_materials/lectures/114267/paper" target="_blank">PDF</a>)<br>
+-- <em>Kristina Kupferschmidt, Flora Wan, Juan Carrasquilla Alvarez, Dora Gaviria Castaño, Graham W. Taylor and Sedef Akinli Kocak</em></li>
+-- <li>Human-Computer Interaction for AI Systems Design: Reflections on an Online Course on Human-AI Interaction for Professionals (<a href="https://app.underline.io/downloadable_materials/lectures/114239/paper" target="_blank">PDF</a>)<br>
+-- <em>Per Ola Kristensson and Emily Patterson</em></li>
+-- <li>Empowering Educators in AI: Insights from Co-Designing an AI Microcredential with and for K-12 Educators (<a href="https://app.underline.io/downloadable_materials/lectures/114261/paper" target="_blank">PDF</a>)<br>
+-- <em>Nicole Hutchins, Shan Zhang, Joanne Barrett and Maya Israel</em></li>
+-- </ul>
+
+
+-- <p><strong>9:45 - 10:45: AI for Everyone </strong><br>
+-- Chair: Zhonghao Shi</p>
+-- <ul>
+-- <li>Developing Chatbots for Sustainability: Experiential Learning in an Undergraduate Business Course (<a href="https://app.underline.io/downloadable_materials/lectures/114243/paper" target="_blank">PDF</a>)<br>
+-- <em>Dailin Zheng, Yu Chen, Yee Kit Chan, Erica Lai and Albert J. Leslie</em></li>
+-- <li>	Computational Thinking with Computer Vision: Developing AI Competency in an Introductory Computer Science Course (<a href="https://app.underline.io/downloadable_materials/lectures/114244/paper" target="_blank">PDF</a>)<br>
+-- <em>Tahiya Chowdhury</em></li>
+-- <li>The Essentials of AI for Life and Society: An AI Literacy Course for the University Community (<a href="https://app.underline.io/downloadable_materials/lectures/114249/paper" target="_blank">PDF</a>)<br>
+-- <em>Joydeep Biswas, Don Fussell, Kristin Patterson, Kristen Procko, Lea Sabatini, Peter Stone and Zifan Xu</em></li>
+-- <li>We Are AI: Taking Control of Technology (<a href="https://app.underline.io/downloadable_materials/lectures/114251/paper" target="_blank">PDF</a>)<br>
+-- <em>Julia Stoyanovich, Armanda Lewis, Eric Corbett, Lucius Bynum, Lucas Rosenblatt and Falaah Arif Khan</em></li>
+-- <li>Shaping AI Interest in Rural Middle Schools with Unplugged Learning: Gender Differences and Teacher Insights (<a href="https://app.underline.io/downloadable_materials/lectures/114270/paper" target="_blank">PDF</a>)</br>
+-- <em>Hansol Lim, Danielle Boulden, Jessica Vandenberg, Veronica Catete, Wookhee Min and Bradford Mott</em></li>
+-- </ul>
+
+-- <p><strong>10:45 - 11:15: Coffee Break</strong></p>
+
+
+-- <p><strong>11:15 - 12:30: Birds of a Feather</strong><p>
+-- <ol>
+-- <li>AI for the People: Education and Outreach Work at the Nation's 25 AI Institutes<br/>
+-- 	<i>Fred Martin and Dave Touretzky</i>
+-- </li>
+-- <li>K-12: A chat with K-12 AI Educators<br/>
+-- <i>Bryan Repass, Laura Wojick, and Maura White</i></li>
+-- <li>Disseminating AI activities <br/>
+-- <i>Tingting (Rachel) Chung and Somosmita Mitra</i></li>
+-- </ol>
+
+
+-- <p><strong>12:30 - 2:00: Lunch Break</strong></p>
+
+
+-- <p><strong>2:00 - 3:30: Model AI Assignments III </strong><br>
+-- Chairs: Todd Neller. MAIA Repository (<a href="http://modelai.gettysburg.edu/" target="_blank">http://modelai.gettysburg.edu/</a>)</p>
+-- <ul>
+-- <li>Designing Culturally Responsive Lessons with AI: Enhancing Engagement and Inclusion<br>
+-- <em>Eun Kyung Ko and Vishodana Thamotharan</em></li>
+--   <li>Gender Bias in Word Embeddings<br>
+-- <em>Shruthi Chockkalingam and Giulia Toti</em></li>
+--   <li>AI & Employment Lesson Plan<br>
+-- <em>Cunyan Ma, Daniella DiPaola and Cynthia Breazeal</em></li>
+--   <li>"Guess My Passcode": A K-12 Game-Based Introduction to AI and Backpropagation<br>
+-- <em>Evan Shieh, Princewill Okoroafor and Thema Monroe-White</em></li>
+--   <li>Large Language MadLibs<br>
+-- <em>Kristin Fasiang and Duri Long</em></li>
+--   <li>Spelling Fixer<br>
+-- <em>Rasika Bhalerao</em></li>
+--   <li>Act Out An LLM<br>
+-- <em>Sarah Wharton, John Masla, Lydia Guterman, Mary Cate Gustafson-Quiett, Christina Bosch, Samar Abu Hegley, Calvin Macatantan, Eric Klopfer, Cynthia Breazeal and Hal Abelson	</em></li>
+-- </ul>
+
+-- <p><strong>3:30 - 4:00: Break</strong></p>
+
+
+-- <p><strong>4:00 - 4:50: Hardware and Robots!</strong><br>
+-- Chair: Dave Touretzky</p>
+-- <ul>
+-- <li>A Versatile Low-Cost Kit for Teaching Novice Learners AI Using Robotics Components And a No-Code Development Playground (<a href="https://app.underline.io/downloadable_materials/lectures/114259/paper" target="_blank">PDF</a>)<br>
+-- <em>Anssi Lin, Anssi Salonen, Nicolas Pope, Henriikka Vartiainen and Matti Tedre</em></li>
+-- <li>Smart Motor: A Low-Cost Hardware and Software Toolkit for Introducing Supervised Machine Learning to Elementary School Students (<a href="https://app.underline.io/downloadable_materials/lectures/114257/paper" target="_blank">PDF</a>)<br>
+-- <em>Tanushree Burman, Milan Dahal, Geling Xu, Chris Rogers, Jennifer Cross and Jivko Sinapov</em></li>
+-- <li>"AlphAI": Teaching AI algorithms to K12 by training learning robots and visualizing how it works (<a href="https://app.underline.io/downloadable_materials/lectures/114272/paper" target="_blank">PDF</a>)<br>
+-- <em>Marie Absalon and Thomas Deneux</em></li>
+-- <li>Using Explainable AI and Hierarchical Planning for Outreach with Robots (<a href="https://app.underline.io/downloadable_materials/lectures/114247/paper" target="_blank">PDF</a>)<br>
+-- <em>Rushang Karia, Jayesh Nagpal, Daksh Dobhal, Pulkit Verma, Rashmeet Kaur Nayyar, Naman Shah and Siddharth Srivastava</em></li>
+-- </ul>
+
+-- <p><strong>4:50 - 5:30: EAAI Community Meeting</strong></p>
+		    
+<h2 id="about-eaai">About EAAI-26</h2>
+<p>The Thirteenth Symposium on Educational Advances in Artificial Intelligence (EAAI-26) will be held along with AAAI-26. </p>
+<p>EAAI-26 provides a venue for researchers and educators to discuss pedagogical issues and share resources related to teaching and using AI in education across various curricular levels (K-12 through postgraduate training), emphasizing undergraduate and graduate teaching and learning. The symposium seeks contributions showing how to teach AI more effectively and how themes from AI may be used to enhance education more broadly (for example, in introductory computing courses or as a means for teaching computational thinking). We encourage sharing innovative educational approaches that convey or leverage AI and its many subfields, including robotics, machine learning, natural language processing, computer vision, and others.</p>
+<p>EAAI-26 is expected to include invited talks (including a talk of the recipient of the AAAI/EAAI Outstanding AI Educator Award 2026), Model AI Assignments; two special tracks for 1) Resources for Teaching AI in K-12, 2) AI for Education, and other exciting activities.</p>
+
+<h2 id="call-for-participation">Call for Participation</h2>
+<p>The call for participation is now available <a href="/eaai/cfp.html">here</a>. </p>
+		<p>EAAI-26 has several tracks for submission:</p>
+		<ul>
+			<li>Main Track (<a href="/eaai/cfp.html#maintrack">link</a>)
+   		<li>Special Track: AI for Education (<a href="/eaai/cfp.html#ai4education">link</a>)
+			<li>Special Track: Resources for Teaching AI in K-12 (<a href="/eaai/cfp.html#ai4k12">link</a>)
+			<li>Special Track: Model AI Assignments (<a href="/eaai/cfp.html#modelai">link</a>)
+		</ul>
+			<p>Details for length and style of submissions are provided in the call for participation.</p>
+<p>All submissions should be anonymous for double-blind review. </p>
+<p>EAAI-26 will not consider any paper that, at the time of submission, is under review for or has already been published or accepted for publication in a refereed journal or conference. Once submitted to EAAI-26, papers may not be submitted to another refereed journal or conference during the review period. These restrictions do not apply to unrefereed forums or workshops 
+without archival proceedings.</p>
+			
+<h2 id="aaaieaai-outstanding-educator-award">AAAI/EAAI Outstanding Educator Award<a name="award"></a></h2>
+		    We will invite you to submit your nominations for the <strong>2026 AAAI/EAAI Patrick Henry Winston Outstanding Educator Award</strong> soon!
+<!-- We invite you to submit your nominations for the <strong>2025 AAAI/EAAI Patrick Henry Winston Outstanding Educator Award</strong>: <a href="https://aaai.org/about-aaai/aaai-awards/2025-aaai-eaai-patrick-henry-winston-outstanding-educator-award/">Call for Nominations</a>. 	
+Additional information including a list of past awardees is available at <a href="http://www.aaai.org/Awards/eaai-award.php">http://www.aaai.org/Awards/eaai-award.php</a>.</p>	    
+-->
+
+<h2 id="nfaied">AAAI/ACM SIGAI Innovative AI Education Program<a name="iaep"></a></h2>
+EAAI-26 will continue the AAAI/ACM SIGAI Innovative AI Education Program. 
+More information on how to apply will be available in June 2025.
+-- Submit your application <a href="https://forms.gle/yRkHT8FdLTRzaW5N9">here</a> by January 14, 2025. 
+Additional information including this year's call for participation and a list of past awardees is available at <a href="https://eaai-conf.github.io/eaai/iaep.html">https://eaai-conf.github.io/eaai/iaep.html</a>.</p>
+		    
+<h2 id="organizers">EAAI-26 Organizers and Contact Information</h2>
+<p>Correspondence may be sent to EAAI at <a href="mailto:eaai26@aaai.org">eaai26@aaai.org</a>.</p>
+<p>EAAI-26 Co-Chairs</p>
+<ul>
+  <li>
+<p>Narges Norouzi <br/>
+<em>University of California Berkeley</em><br />
+<a href="https://nargesnorouzi.me/">website</a></p>
+</li>
+<li>
+<p>Lisa Zhang<br/>
+<em>University of Toronto Mississauga</em><br />
+<a href="https://lisazhang.ca/">website</a></p>
+</li>
+</ul>
+Organizers will be posted soon.
+<!--<p><strong>EAAI-25 Organizers:</strong> <a href="https://eaai-conf.github.io/eaai/org.html">link</a></p>-->
+
+		    
+
+<!--
+## Travel Support 
+
+Opportunities for partial travel support to attend EAAI are available due to generous sponsorship from AAAI and the AI Journal.  To apply, fill out the application [form](https://goo.gl/forms/53TavKTkscIPVbFW2) by end-of-day on December 18. Additional details are available [here](eaai-19/scholar-19/index.html). 
+-->
+
+<h3 id="support-for-eaai">Support for EAAI-26</h3>
+<p>Generous support for EAAI is made available by: </p>
+<table>
+    <tr>
+        <td> 
+            <a href="http://www.aaai.org"><img src="/img/aaai-logo.jpg", style="float:left", title="AAAI"></a>
+        </td>
+	<td> 
+             <a href="http://aij.ijcai.org/index.php/funding-opportunities-for-promoting-ai-research"><img src="/img/AIJ_Cover.png" style="float:left" height=120 title="AI Journal Funding for Promoting AI Research"></a>
+        </td>
+	<td>
+	  <a href="https://sigai.acm.org/main/"><img src="/img/sigai_logo.svg", style="float:left", title="SIGAI" height=120></a>
+	</td>
+	    <!--
+        <td>
+            <a href="http://aij.ijcai.org/index.php/funding-opportunities-for-promoting-ai-research"><img src="img/AIJ_Cover.png" style="float:left" height=120 title="AI Journal Funding for Promoting AI Research"></a>
+        </td>
+         <td>
+            <a href="http://www.nsf.gov"><img src="/img/nsf1.gif" style="float:left" title="National Science Foundation"></a>
+        </td> -->
+        <td> 
+            <!--<a href="https://sigai.acm.org/"><img src="/img/sigai_logo.svg" style="float:left" height=140 title="SIG AI">
+            </a>-->
+        </td>
+    </tr>
+</table>
+            </div>
+        </div>
+
+    </body>
+</html>
